@@ -13,7 +13,7 @@ const Hero = () => {
         <S.TextContainer>
           <S.HorizonBar />
           <S.Title>Hi, </S.Title>
-          <S.Title>I'm Hingis Chang,</S.Title>
+          <S.Title>I&rsquo;m Hingis Chang,</S.Title>
           <S.SubtitleWrapper>
             <S.Subtitle>an interdisciplinary</S.Subtitle>
             <S.Subtitle>UX / Product Designer</S.Subtitle>
