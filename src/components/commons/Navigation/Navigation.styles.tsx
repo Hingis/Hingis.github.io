@@ -4,17 +4,20 @@ import styled, { css } from "styled-components";
 import { mediaQueryDown } from "@styles/mixins";
 
 export const NavBar = styled.nav`
-  margin-top: 20px;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 1rem;
+  padding: 32px 0px;
   color: #333;
+  position: fixed;
+  z-index: 100;
+  background-color: white;
 
   ${mediaQueryDown("md")`
-    margin-top: 0px;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-end;
+    background-color: white;
   `}
 `;
 
@@ -25,6 +28,7 @@ export const IconWrapper = styled.div<{ children: ReactNode }>`
 
   ${mediaQueryDown("md")`
 		display: flex;
+    margin-right: 40px;
 	`}
 `;
 
@@ -46,7 +50,6 @@ export const Menu = styled.div<{ $isOpen: boolean }>`
         margin-top: 20px;
         margin-left: 12px;
 				flex-direction: column;
-				width: 100%;
 				display: flex;
 	`}
 `;
@@ -60,8 +63,5 @@ export const MenuItem = styled.a`
 
   &:hover {
     color: #05f;
-    font-family: Bitter, serif;
-    font-style: italic;
-    font-weight: 400;
   }
 `;

@@ -10,12 +10,12 @@ const tabs = [
       <S.ProjectWrapper>
         <ProjectItem
           title="Emosic: A Mood-Based Music Recommendation Plug-in Embedded Into Spotify"
-          imageSrc="Spotify.png"
-          link="#"
+          imageSrc="/00Homepage/Emosic.png"
+          link="/projects/emosic"
         />
         <ProjectItem
           title="DELL World: Camp Furbish"
-          imageSrc="Dell.png"
+          imageSrc="/00Homepage/Dell.png"
           link="#"
         />
       </S.ProjectWrapper>

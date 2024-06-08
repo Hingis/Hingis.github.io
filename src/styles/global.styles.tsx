@@ -1,6 +1,8 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
   html,
   body {
     height: 100%;
@@ -8,8 +10,7 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     overflow-x: hidden;
     overflow-y: auto;
-    font-family: 'Montserrat', sans-serif;
-    font-feature-settings: 'liga' 1, 'calt' 1;
+    font-family: Montserrat, sans-serif;
     }
   }
   a {

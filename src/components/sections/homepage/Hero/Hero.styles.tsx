@@ -7,7 +7,7 @@ export const HeroContainer = styled.div`
   display: flex;
   justify-content: space-evenly;
   gap: 32px;
-
+  margin-top: 20px;
   ${mediaQueryDown("lg")`
 		flex-direction: column;
 		align-items: center;

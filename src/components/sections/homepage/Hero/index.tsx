@@ -22,7 +22,7 @@ const Hero = () => {
         </S.TextContainer>
 
         <Image
-          src="/HomeHero.png"
+          src="/00Homepage/HomeHero.png"
           alt="Hingis selfie"
           width={isMobile ? 300 : 560}
           height={isMobile ? 300 : 560}
