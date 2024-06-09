@@ -63,22 +63,9 @@ export const TagWrapper = styled.div`
   background-color: white;
   border-radius: 100px;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   padding: 10px 32px;
   background: #1ed760;
-`;
-
-export const Title = styled.h1`
-  margin: 0;
-  padding: 0;
-  font-size: 38px;
-  font-weight: 700;
-  color: white;
-
-  ${mediaQueryDown("sm")`
-		font-size: 24px;
-		line-height: 1.3;
-	`}
 `;
 
 export const Subtitle = styled.p`
@@ -105,16 +92,6 @@ export const DetailWrapper = styled.div`
   align-items: center;
   width: 320px;
   gap: 8px;
-`;
-
-export const DetailTitle = styled.p`
-  margin: 0;
-  padding: 0;
-  color: #1ed760;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  text-align: center;
 `;
 
 export const DetailContent = styled.p`
@@ -148,24 +125,6 @@ export const OverviewTextWrapper = styled.div`
 		width: 100%;
 		gap: 12px;
 	`}
-`;
-
-export const OverviewTitle = styled.h2`
-  margin: 0;
-  padding: 0;
-  font-weight: 600;
-  font-size: 32px;
-
-  ${mediaQueryDown("md")`
-		font-size: 24px;
-	`}
-`;
-
-export const OverviewText = styled.p`
-  margin: 0;
-  padding: 0;
-  font-weight: 400;
-  font-size: 16px;
 `;
 
 export const OverviewTextWrapper2 = styled.div`

@@ -40,7 +40,13 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head />
+        <Head>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+          ></link>
+          <link rel="icon" href="/little_artist.ico" />
+        </Head>
         <body>
           <Main />
           <NextScript />

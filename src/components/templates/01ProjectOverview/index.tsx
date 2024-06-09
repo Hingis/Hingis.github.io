@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import * as S from "./ProjectOverview.styles";
+import * as T from "@styles/typography";
 
 interface ProjectOverviewProps {
   imageSrc: string;
@@ -13,13 +14,14 @@ const ProjectOverview = () => {
         <S.TitleContainer>
           <S.TitleWrapper>
             <S.TagsContainer>
-              <S.TagWrapper>AI</S.TagWrapper>
+              <S.TagWrapper>UX Research</S.TagWrapper>
               <S.TagWrapper>UX Design</S.TagWrapper>
+              <S.TagWrapper>AI</S.TagWrapper>
             </S.TagsContainer>
-            <S.Title>
+            <T.Heading1>
               Emosic: A Mood-Based Music Recommendation Plug-in Embedded Into
               Spotify
-            </S.Title>
+            </T.Heading1>
             <S.Subtitle>
               An AI-driven plug-in for music streaming players, based on
               research in Human-AI interaction, aims to comprehend music
@@ -41,47 +43,48 @@ const ProjectOverview = () => {
 
       <S.OverviewDetailContainer>
         <S.DetailWrapper>
-          <S.DetailTitle>Role</S.DetailTitle>
+          <T.Subtitle1 color="#1ed760">Role</T.Subtitle1>
           <S.DetailContent>UI Designer, UX Researcher</S.DetailContent>
         </S.DetailWrapper>
         <S.DetailWrapper>
-          <S.DetailTitle>DURATION</S.DetailTitle>
+          <T.Subtitle1 color="#1ed760">DURATION</T.Subtitle1>
           <S.DetailContent>Feb, 2022 - Jun, 2022</S.DetailContent>
         </S.DetailWrapper>
         <S.DetailWrapper>
-          <S.DetailTitle>TEAM</S.DetailTitle>
+          <T.Subtitle1 color="#1ed760">TEAM</T.Subtitle1>
           <S.DetailContent>
             Ariel Xiong, Iris Xu, Peggy Hu, Hingis Chang
           </S.DetailContent>
         </S.DetailWrapper>
         <S.DetailWrapper>
-          <S.DetailTitle>TOOL</S.DetailTitle>
+          <T.Subtitle1 color="#1ed760">TOOL</T.Subtitle1>
           <S.DetailContent>Figma</S.DetailContent>
         </S.DetailWrapper>
       </S.OverviewDetailContainer>
+
       <S.OverviewContainer>
         <S.OverviewTextWrapper>
-          <S.OverviewTitle>Overview</S.OverviewTitle>
-          <S.OverviewText>
+          <T.Heading2>Overview</T.Heading2>
+          <T.Text1>
             Emosic is an AI-powered, mood-based music recommendation plug-in
             seamlessly integrated with Spotify, designed with a keen focus on
             Human-AI interaction principles. Emosic empowers users to create
             personalized mood playlists that cater to their unique emotional
             states.
-          </S.OverviewText>
+          </T.Text1>
         </S.OverviewTextWrapper>
         <S.OverviewTextWrapper>
-          <S.OverviewTitle>Primary Users</S.OverviewTitle>
-          <S.OverviewText>
+          <T.Heading2>Primary Users</T.Heading2>
+          <T.Text1>
             Current music streaming app users. Especially target those who
             create their own mood playlists or are unsatisfied with current
             music recommendations.
-          </S.OverviewText>
+          </T.Text1>
         </S.OverviewTextWrapper>
 
         <S.OverviewTextWrapper2>
-          <S.OverviewTitle>Background</S.OverviewTitle>
-          <S.OverviewText>
+          <T.Heading2>Background</T.Heading2>
+          <T.Text1>
             Our project stemmed from a mutual interest in mental health. To
             create a genuinely helpful tool, we began by delving into extensive
             research, exploring academic papers, and conducting surveys and
@@ -89,30 +92,22 @@ const ProjectOverview = () => {
             for comfort during stressful times. This led us to develop a music
             plug-in utilizing AI to provide mood-based recommendations, blending
             our passion for mental well-being with cutting-edge technology.
-          </S.OverviewText>
+          </T.Text1>
         </S.OverviewTextWrapper2>
       </S.OverviewContainer>
 
       <S.ObjectiveContainer>
-        <S.OverviewTitle>Objectives & Goals</S.OverviewTitle>
+        <T.Heading2>Objectives & Goals</T.Heading2>
         <S.ObjectiveTextWrapper>
-          <S.OverviewText>
-            - Improve music recommendation accuracy
-          </S.OverviewText>
-          <S.OverviewText>
-            - Design mood-based music recommendation features
-          </S.OverviewText>
-          <S.OverviewText>
-            - Improve transparency between users and AI
-          </S.OverviewText>
-          <S.OverviewText>
-            - Increase data collection channels and diversity
-          </S.OverviewText>
+          <T.Text1>- Improve music recommendation accuracy</T.Text1>
+          <T.Text1>- Design mood-based music recommendation features</T.Text1>
+          <T.Text1>- Improve transparency between users and AI</T.Text1>
+          <T.Text1>- Increase data collection channels and diversity</T.Text1>
         </S.ObjectiveTextWrapper>
       </S.ObjectiveContainer>
 
       <S.ProcessContainer>
-        <S.OverviewTitle>Design Process</S.OverviewTitle>
+        <T.Heading2>Design Process</T.Heading2>
         <Image
           src="/01Emosic/Design_Process.png"
           alt="Design Process"

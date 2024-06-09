@@ -1,1 +1,1 @@
-export type IconName = "Menu";
+export type IconName = "Menu" | "Headphone" | "Message" | "Emoji";
