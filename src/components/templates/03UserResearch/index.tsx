@@ -293,8 +293,9 @@ const UserResearch = () => {
             </S.QuestionCategoryWrapper>
             <S.QuestionTextWrapper>
               <S.QuestionText>
-                We're working on developing a mood-based music recommendation
-                plug-in. What are your initial thoughts on this concept?
+                We&rsquo;re working on developing a mood-based music
+                recommendation plug-in. What are your initial thoughts on this
+                concept?
               </S.QuestionText>
               <S.QuestionText>
                 Are there any specific features or functionalities you would
@@ -329,27 +330,28 @@ const UserResearch = () => {
             </S.UserWrapper>
             <S.FeedbackTextContainer>
               <S.FeedbackTextWrapper>
-                "I seldom like or dislike; just add the song to the list cause I
-                hate input and AI follow-up."
+                &rdquo;I seldom like or dislike; just add the song to the list
+                cause I hate input and AI follow-up.&rdquo;
               </S.FeedbackTextWrapper>
               <S.FeedbackTextWrapper>
-                "I have relaxed, calm down, evening playlist, and fast beat
-                music for the workout."
+                &rdquo;I have relaxed, calm down, evening playlist, and fast
+                beat music for the workout.&rdquo;
               </S.FeedbackTextWrapper>
             </S.FeedbackTextContainer>
           </S.FeedbackWrapper>
           <S.FeedbackWrapperReverse>
             <S.FeedbackTextContainer>
               <S.FeedbackTextWrapper>
-                “I think Spotify recommended too many similar and repeated songs
-                to me, I would like to listen to something new.”
+                &rdquo;I think Spotify recommended too many similar and repeated
+                songs to me, I would like to listen to something new.&rdquo;
               </S.FeedbackTextWrapper>
               <S.FeedbackTextWrapper>
-                "I always play the song based on different scenarios."
+                &rdquo;I always play the song based on different
+                scenarios.&rdquo;
               </S.FeedbackTextWrapper>
               <S.FeedbackTextWrapper>
-                "I would like the song but not using dislike. If the song is not
-                good for me, I'll just skip it."
+                &rdquo;I would like the song but not using dislike. If the song
+                is not good for me, I&rsquo;ll just skip it.&rdquo;
               </S.FeedbackTextWrapper>
             </S.FeedbackTextContainer>
             <S.UserWrapper>
