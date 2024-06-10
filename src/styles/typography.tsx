@@ -2,35 +2,47 @@ import styled from "styled-components";
 
 import { mediaQueryDown } from "@styles/mixins";
 
-export const Heading1 = styled.h1`
+export const Heading1 = styled.h1<{
+  textAlign?: "left" | "right" | "center" | "justify";
+  color?: string;
+}>`
   margin: 0;
   padding: 0;
   font-size: 38px;
   font-weight: 700;
-  color: white;
+  color: ${({ color }) => color || "white"};
+  text-align: ${({ textAlign }) => textAlign || "left"};
 
   ${mediaQueryDown("sm")`
-	font-size: 24px;
-	line-height: 1.3;
+	  font-size: 28px;
+	  line-height: 1.3;
 `}
 `;
 
-export const Heading2 = styled.h2`
+export const Heading2 = styled.h2<{
+  color?: string;
+}>`
   margin: 0;
   padding: 0;
   font-weight: 600;
   font-size: 32px;
+  color: ${({ color }) => color || "black"};
 
   ${mediaQueryDown("md")`
 		font-size: 24px;
 	`}
 `;
 
-export const Heading3 = styled.h3`
+export const Heading3 = styled.h3<{
+  color?: string;
+  textAlign?: "left" | "right" | "center" | "justify";
+}>`
   margin: 0;
   padding: 0;
   font-weight: 600;
   font-size: 28px;
+  color: ${({ color }) => color || "black"};
+  text-align: ${({ textAlign }) => textAlign || "left"};
 
   ${mediaQueryDown("md")`
 		font-size: 22px;

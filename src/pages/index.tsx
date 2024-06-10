@@ -14,7 +14,9 @@ export default function Home() {
       <main>
         <Navigation />
         <Hero />
-        <Projects />
+        <section id="project">
+          <Projects />
+        </section>
       </main>
     </>
   );

@@ -19,8 +19,8 @@ const Navigation = () => {
       <S.Menu $isOpen={isOpen}>
         <S.MenuItem href="/">Home</S.MenuItem>
         <S.MenuItem href="/about">About</S.MenuItem>
-        <S.MenuItem href="/works">Works</S.MenuItem>
-        <S.MenuItem href="/contact">Contact</S.MenuItem>
+        <S.MenuItem href="/#project">Works</S.MenuItem>
+        {/* <S.MenuItem href="/contact">Contact</S.MenuItem> */}
       </S.Menu>
     </S.NavBar>
   );

@@ -15,3 +15,9 @@ export const ProjectWrapper = styled.div`
   flex-wrap: wrap;
   justify-content: center;
 `;
+
+export const CarouselWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+`;

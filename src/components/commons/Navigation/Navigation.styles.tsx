@@ -33,7 +33,7 @@ export const IconWrapper = styled.div<{ children: ReactNode }>`
 `;
 
 export const Menu = styled.div<{ $isOpen: boolean }>`
-  margin-right: 40px;
+  margin-right: 120px;
   display: flex;
   gap: 2rem;
 

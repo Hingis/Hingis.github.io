@@ -12,6 +12,10 @@ export const HeroContainer = styled.div`
 		flex-direction: column;
 		align-items: center;
 	`}
+
+  ${mediaQueryDown("md")`
+    margin-top: 120px;
+	`}
 `;
 
 export const TextContainer = styled.div`

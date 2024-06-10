@@ -1,7 +1,10 @@
 import Tabs from "@components/commons/Tabs";
 import ProjectItem from "./components/ProjectItem";
+import Carousel from "@components/commons/Carousel";
+import { carousel1, carousel2 } from "@misc-data/gallery";
 
 import * as S from "./Projects.styles";
+import * as T from "@styles/typography";
 
 const tabs = [
   {
@@ -13,16 +16,27 @@ const tabs = [
           imageSrc="/00Homepage/Emosic.png"
           link="/projects/emosic"
         />
-        <ProjectItem
+        {/* <ProjectItem
           title="DELL World: Camp Furbish"
           imageSrc="/00Homepage/Dell.png"
           link="#"
-        />
+        /> */}
       </S.ProjectWrapper>
     ),
   },
-  { title: "Illustrations/Art", content: "This is Tab 2 content" },
-  { title: "Others", content: "This is Tab 3 content" },
+  {
+    title: "Illustrations/Art",
+    content: (
+      <S.CarouselWrapper>
+        <T.Heading3 textAlign="center" color="white">
+          Illustrations
+        </T.Heading3>
+        <Carousel imgsArray={carousel1} />
+        <Carousel imgsArray={carousel2} />
+      </S.CarouselWrapper>
+    ),
+  },
+  // { title: "Others", content: "This is Tab 3 content" },
 ];
 
 const Projects = () => {
