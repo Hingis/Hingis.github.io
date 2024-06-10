@@ -57,13 +57,14 @@ const About = () => {
           <S.SubtitleWrapper>
             <S.Subtitle>Personal Mission</S.Subtitle>
             <T.Text1>
-              It's honestly hard to define myself with a specific title. My
-              friends call me <T.TextBold>"the healer,"</T.TextBold> which
-              resonates deeply with my life goal: to convey warmth and help
-              others in my own way. I believe that even in a challenging world,
-              there's an abundance of love and kindness. My mission is to use
-              empathy to weave stories behind products, connect people, and
-              create experiences that matter.
+              It&rsquo;s honestly hard to define myself with a specific title.
+              My friends call me{" "}
+              <T.TextBold>&rdquo;the healer,&rdquo;</T.TextBold> which resonates
+              deeply with my life goal: to convey warmth and help others in my
+              own way. I believe that even in a challenging world, there&rdquo;s
+              an abundance of love and kindness. My mission is to use empathy to
+              weave stories behind products, connect people, and create
+              experiences that matter.
             </T.Text1>
           </S.SubtitleWrapper>
         </S.AboutMeWrapper>
