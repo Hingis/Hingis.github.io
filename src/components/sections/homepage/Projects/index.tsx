@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 import Tabs from "@components/commons/Tabs";
 import ProjectItem from "./components/ProjectItem";
 import Carousel from "@components/commons/Carousel";
@@ -8,7 +10,7 @@ import * as T from "@styles/typography";
 
 const tabs = [
   {
-    title: "UI/UX",
+    title: "UI / UX",
     content: (
       <S.ProjectWrapper>
         <ProjectItem
@@ -25,7 +27,7 @@ const tabs = [
     ),
   },
   {
-    title: "Illustrations/Art",
+    title: "Illustrations / Art",
     content: (
       <S.CarouselWrapper>
         <T.Heading3 textAlign="center" color="white">
@@ -40,6 +42,21 @@ const tabs = [
 ];
 
 const Projects = () => {
+  const router = useRouter();
+
+  useEffect(() => {
+    const handleRouteChange = () => {
+      console.log("Route changed!");
+      window.scrollTo(-100, -1000);
+    };
+
+    router.events.on("routeChangeComplete", handleRouteChange);
+
+    return () => {
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
+
   return (
     <S.ProjectContainer>
       <S.TabsWrapper>

@@ -10,9 +10,9 @@ interface ItemProps {
   link: string;
 }
 
-const ProjectItem = ({ title, imageSrc, link, description }: ItemProps) => {
+const ProjectItem = ({ title, imageSrc, link }: ItemProps) => {
   return (
-    <Link href={link} passHref>
+    <Link href={`${link}#cover`} passHref>
       <S.ProjectItemContainer>
         <S.ImageWrapper>
           <Image src={imageSrc} alt={title} layout="fill" objectFit="cover" />

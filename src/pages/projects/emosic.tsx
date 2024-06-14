@@ -1,8 +1,12 @@
 import Head from "next/head";
 import Navigation from "@components/commons/Navigation";
-import ProjectOverview from "@components/templates/01ProjectOverview";
-import Background from "@components/templates/02Background";
-import UserResearch from "@components/templates/03UserResearch";
+import ProjectOverview from "@components/templates/00ProjectOverview";
+import Background from "@components/templates/01Background";
+import UserResearch from "@components/templates/02UserResearch";
+import UserDesign from "@components/templates/03UserDesign";
+import UsabilityTesting from "@components/templates/04UsabilityTesting";
+import Iteration from "@components/templates/05Iterations";
+import Summary from "@components/templates/06Summary";
 
 export default function Home() {
   return (
@@ -17,6 +21,10 @@ export default function Home() {
         <ProjectOverview />
         <Background />
         <UserResearch />
+        <UserDesign />
+        <UsabilityTesting />
+        <Iteration />
+        <Summary />
       </main>
     </>
   );

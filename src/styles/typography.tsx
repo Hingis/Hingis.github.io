@@ -103,6 +103,7 @@ export const Text1 = styled.p<{
   line-height: 1.3;
   text-align: ${({ textAlign }) => textAlign || "left"};
   color: ${({ color }) => color || "#000"};
+  white-space: pre-line;
 `;
 
 export const TextBold = styled.span`
@@ -113,4 +114,8 @@ export const TextBold = styled.span`
 
 export const TextHighlight = styled.span<{ bgColor?: string }>`
   background-color: ${({ bgColor }) => bgColor || "transparent"};
+`;
+
+export const ListText = styled.li`
+  font-weight: 500;
 `;
