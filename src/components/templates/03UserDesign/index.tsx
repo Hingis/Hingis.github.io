@@ -89,17 +89,17 @@ const UserDesign = () => {
 
         <T.Heading3>Lo-fi Prototypes</T.Heading3>
         <T.Text1>
-          Here are some lo-fi prototypes we've designed, incorporating the
-          <T.TextBold> "Emotion Mode"</T.TextBold> feature based on user
-          insights. In this mode, users can enter their current mood and
+          Here are some lo-fi prototypes we&rsquo;ve designed, incorporating the
+          <T.TextBold> &rdquo;Emotion Mode&rdquo;</T.TextBold> feature based on
+          user insights. In this mode, users can enter their current mood and
           feelings via a dedicated button on the interface, allowing for random
-          mood-based playlist recommendations. Additionally, we've included an
-          initial setup for first-time users to collect basic data. During music
-          playback, users have both passive feedback options, like skipping
-          songs, and active feedback options on the player page to rate how well
-          the song matches their mood. These features aim to enhance user
-          engagement and provide valuable data for improving the recommendation
-          system.
+          mood-based playlist recommendations. Additionally, we&rsquo;ve
+          included an initial setup for first-time users to collect basic data.
+          During music playback, users have both passive feedback options, like
+          skipping songs, and active feedback options on the player page to rate
+          how well the song matches their mood. These features aim to enhance
+          user engagement and provide valuable data for improving the
+          recommendation system.
         </T.Text1>
         <SS.ImageContainer>
           <SS.ImageWrapper>

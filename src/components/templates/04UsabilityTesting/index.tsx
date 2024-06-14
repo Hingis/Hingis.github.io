@@ -43,14 +43,14 @@ const UsabilityTesting = () => {
           user-friendliness of our lo-fi prototypes, particularly focusing on
           the newly implemented <T.TextBold>Emotion/Mood Mode</T.TextBold>{" "}
           feature and feedback mechanisms. With 4 primary tasks and associated
-          flows, we'll assess how users interact with the prototypes and gather
-          insights to refine our design further.
+          flows, we&rsquo;ll assess how users interact with the prototypes and
+          gather insights to refine our design further.
         </T.Text1>
 
         <T.Heading4>Task 1: Initial Setting</T.Heading4>
         <T.Text1>
-          <T.TextBold>Scenario:</T.TextBold> You're feeling sad today and would
-          like to use Mood Mode to generate music suitable for a sad mood.
+          <T.TextBold>Scenario:</T.TextBold> You&rsquo;re feeling sad today and
+          would like to use Mood Mode to generate music suitable for a sad mood.
         </T.Text1>
         <Image
           src="/01Emosic/Task01.png"
@@ -117,15 +117,16 @@ const UsabilityTesting = () => {
         </T.Text1>
         <SS.ListTextWrapper>
           <T.ListText>
-            Confusion between "Match" and "Like" features; users suggest clearer
-            differentiation.
+            Confusion between &rdquo;Match&rdquo; and &rdquo;Like&rdquo;
+            features; users suggest clearer differentiation.
           </T.ListText>
           <T.ListText>
-            Request for a tutorial to understand the "Match" feature better.
+            Request for a tutorial to understand the &rdquo;Match&rdquo; feature
+            better.
           </T.ListText>
           <T.ListText>
-            Uncertainty about the system's response after providing feedback;
-            desire for immediate changes.
+            Uncertainty about the system&rsquo;s response after providing
+            feedback; desire for immediate changes.
           </T.ListText>
           <T.ListText>
             Appreciation for the slider but dislike excessive text.
