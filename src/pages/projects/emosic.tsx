@@ -7,6 +7,7 @@ import UserDesign from "@components/templates/03UserDesign";
 import UsabilityTesting from "@components/templates/04UsabilityTesting";
 import Iteration from "@components/templates/05Iterations";
 import Summary from "@components/templates/06Summary";
+import Footer from "@components/commons/Footer";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <UsabilityTesting />
         <Iteration />
         <Summary />
+        <Footer />
       </main>
     </>
   );

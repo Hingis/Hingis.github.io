@@ -4,6 +4,10 @@ import * as S from "./About.styles";
 import * as T from "@styles/typography";
 
 const About = () => {
+  const openPDF = () => {
+    window.open("/About/Hingis_Resume.pdf", "_blank");
+  };
+
   return (
     <S.PageContainer>
       <S.AboutMeContainer reverse>
@@ -107,6 +111,11 @@ const About = () => {
           />
         </S.ImageWrapper>
       </S.AboutMeContainer>
+
+      <S.AboutFooter>
+        <S.ResumeButton onClick={openPDF}>Resume / CV</S.ResumeButton>
+        <T.Text1>Hingis Chang © 2024</T.Text1>
+      </S.AboutFooter>
     </S.PageContainer>
   );
 };

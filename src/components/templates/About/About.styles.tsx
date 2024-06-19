@@ -5,7 +5,7 @@ import { mediaQueryDown } from "@styles/mixins";
 export const PageContainer = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 200px 100px;
+  padding: 180px 100px;
   background-color: #ff5602;
   gap: 80px;
 
@@ -89,4 +89,26 @@ export const Subtitle = styled.div`
   padding: 0;
   font-size: 24px;
   font-weight: 700;
+`;
+
+export const AboutFooter = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+`;
+
+export const ResumeButton = styled.button`
+  background-color: #3000ff;
+  border-radius: 40px;
+  padding: 20px 40px;
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+
+  &:hover {
+    border: 3px solid white;
+  }
 `;

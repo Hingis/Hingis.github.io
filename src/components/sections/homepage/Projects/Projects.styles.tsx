@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ProjectContainer = styled.div`
-  background-color: #4a3aff;
+  background-color: #3000ff;
 `;
 
 export const TabsWrapper = styled.div`
